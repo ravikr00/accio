@@ -1,0 +1,104 @@
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #571845;
+    margin-top: -10px;
+}
+
+html {
+    background-color: #FFC300;
+    font-size: 20px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+    background-color: #571845;
+    height: 25px;
+    height: 55px;
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.fa {
+    color: black;
+}
+
+.here {
+    color: black;
+    font-style: oblique;
+}
+
+.ptitle {
+    color: blanchedalmond;
+    background-color: #571845;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+button {
+    background-color: transparent;
+    width: 125px;
+    height: 40px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+    padding-right: 5px;
+}
+
+.landingpage,
+.techdoc,
+.tributepage,
+.surveyform,
+.nithinquiz {
+    border-style: groove;
+}
+
+.landingpage:hover,
+.techdoc:hover,
+.tributepage:hover,
+.surveyform:hover,
+.nithinquiz:hover {
+    box-shadow: 5px 5px 5px darkslategray;
+    padding: 1px;
+}
+
+footer {
+    background-color: goldenrod;
+}
+
+@media screen and (max-width:225px) {
+    #welcome-section {
+        text-align: justify;
+        height: 100vh;
+    }
+}
